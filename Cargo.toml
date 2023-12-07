@@ -1,0 +1,21 @@
+[package]
+name = "phone"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+embed_plist = "1.2"
+
+[dependencies.icrate]
+version = "0.0.4"
+features = [
+    "CallKit",
+    "CallKit_CXCallController",
+    "CallKit_CXAction",
+    "CallKit_CXHandle",
+    "CallKit_CXStartCallAction",
+    "Foundation_NSError",
+    "Foundation_NSUUID",
+    "Foundation_NSString",
+    "Foundation",
+]
